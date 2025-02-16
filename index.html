@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS grid</title>
+  <style>
+
+    .flex-container {
+display: flex;
+    }
+
+    .box {
+        background-color: blanchedalmond;
+        height: 220px;
+        flex: 1;
+        border: 10px solid black;
+    }
+.first-box {
+    flex: 2;
+    border: 10px solid greenyellow;
+    background-color: coral
+}
+
+.second-box {
+    flex: 0.5;
+    border: 10px solid red;
+    background-color:blueviolet
+}
+
+
+
+
+    </style>
+    </head>
+    <body>
+
+        <h1>Flex Box Practice</h1>
+
+<div class="flex-container">
+<div class="first-box">Notice How when you change the browser size, the boxes in keep the same ratios and are responsive. They are changing rather than a jump like with a media query. </div>
+<div class="second-box"></div>
+<div class="box"></div>
+<div class="box"></div>
+</div>
+
+
+    </body>
+    </html>
